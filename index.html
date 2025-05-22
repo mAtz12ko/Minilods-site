@@ -3,50 +3,70 @@
 <head>
   <title>Minilods - Indie Game Downloads</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
-    h1 { color: #2c3e50; }
-    .game { border: 1px solid #ddd; padding: 10px; margin-bottom: 20px; }
-    .screenshots img { max-width: 150px; margin-right: 10px; }
-    .download-buttons button { margin-right: 10px; padding: 8px 12px; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .game {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 30px 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .game h2 {
+      margin-top: 0;
+      color: #1d3557;
+    }
+
+    .screenshots {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 15px;
+      flex-wrap: wrap;
+    }
+
+    .screenshots img {
+      max-width: 200px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    .download-buttons {
+      margin-top: 15px;
+    }
+
+    .download-buttons button {
+      background-color: #1abc9c;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-right: 10px;
+      font-size: 14px;
+    }
+
+    .download-buttons button:hover {
+      background-color: #16a085;
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to Minilods</h1>
-  <p>Your indie game download platform.</p>
+  <h1>🎮 Welcome to Minilods</h1>
+  <p style="text-align:center;">Your indie game download platform.</p>
 
-  <div class="game">
-    <h2>Techmaniac</h2>
-     <p><strong>Made by:</strong> JohnGabrielUK</p>
-    <p>A Roy Webb, couch potato extraordinaire, was sitting amidst his pile of useless old tat one day, when suddenly a strange wind swept through the room and catapulted his beloved possessions into a strange land known only to him as "the outdoors"! Faced with the loss of the only source of joy in his life, Roy must venture forth and retrieve his hoard before someone else finds it and flogs it on eBay!
-
-</p>
-    <div class="screenshots">
-      <div class="screenshots">
-  <img src="https://imgur.com/UUsPBbs.gif" alt="GIF 1" style="max-width:200px; margin-right:10px;">
-  <img src="https://imgur.com/1MrvXWw.gif" alt="GIF 2" style="max-width:200px; margin-right:10px;">
-  <img src="https://imgur.com/Fop65ZK.gif" alt="GIF 3" style="max-width:200px;">
-</div>
-    </div>
-    <div class="download-buttons">
-<button onclick="window.location.href='https://johngabrieluk.itch.io/techmaniac'">Windows</button>
-<button onclick="window.location.href='https://johngabrieluk.itch.io/techmaniac'">Mac</button>
-<button onclick="window.location.href='https://johngabrieluk.itch.io/techmaniac'">Linux</button>
-<button onclick="window.location.href='https://johngabrieluk.itch.io/techmaniac'">Test the Game</button>
-    </div>
-  </div>
+  <!-- Your game cards go here -->
 </body>
 </html>
-<div class="game">
-  <h2>RetroArch</h2>
-  <p><strong>Made by:</strong> RetroArch & gadsby</p>
-  <p>RetroArch is a versatile frontend for emulators, game engines, and media players. It enables you to run classic games on a wide range of computers and consoles through its slick graphical interface. Settings are unified, so configuration is done once and for all. In addition to this, you are able to run original game discs (CDs) from RetroArch.</p>
-  <div class="screenshots">
-  <img src="https://i.imgur.com/unzKWNC.jpg" alt="1" style="max-width:200px; margin-right:10px;">
-  <img src="https://i.imgur.com/5ujwe18.jpg" alt="2" style="max-width:200px; margin-right:10px;">
-  <img src="https://i.imgur.com/aA3xWOX.jpg" alt="3" style="max-width:200px;">
-  </div>
-  <div class="download-buttons">
-    <button onclick="window.location.href='https://retroarchofficial.itch.io/retroarch'">Download for Windows</button>
-    <button onclick="window.location.href='https://retroarchofficial.itch.io/retroarch'">Download for Linux</button>
-  </div>
-</div>
