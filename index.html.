@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minilods - Indie Game Downloads</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
+    h1 { color: #2c3e50; }
+    .game { border: 1px solid #ddd; padding: 10px; margin-bottom: 20px; }
+    .screenshots img { max-width: 150px; margin-right: 10px; }
+    .download-buttons button { margin-right: 10px; padding: 8px 12px; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Minilods</h1>
+  <p>Your indie game download platform.</p>
+
+  <div class="game">
+    <h2>Techmaniac</h2>
+    <p>A fun platformer made with Godot. Click buttons to download or test the game.</p>
+    <div class="screenshots">
+      <img src="https://cdn.itch.io/uploads/1738968/techmaniac.png" alt="Techmaniac screenshot" />
+    </div>
+    <div class="download-buttons">
+      <button onclick="window.location.href='https://example.com/download/windows'">Windows</button>
+      <button onclick="window.location.href='https://example.com/download/mac'">Mac</button>
+      <button onclick="window.location.href='https://example.com/download/linux'">Linux</button>
+      <button onclick="window.location.href='https://johngabrieluk.itch.io/techmaniac'">Test the Game</button>
+    </div>
+  </div>
+</body>
+</html>
